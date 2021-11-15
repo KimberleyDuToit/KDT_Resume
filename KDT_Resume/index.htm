@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kimberley's Resume</title>
+    <meta charset="utf-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/animations.css">
+</head>
+
+<body>
+    <div class="fullpage">
+        <a name="top"></a>
+        <!--Sticky nav-->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top px-5 lhn">
+            <a class="navbar-brand" href="#">Curriculum Vitae</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-fill w-75 menulinks mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#aboutme">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#academicqualifications">Academic
+                            Qualifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#workexperience">Work Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contactdetails">Contact Details</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#socialmedia">Social Media</a></li>
+                </ul>
+                <!--Portfolio Button for Modal-->
+                <div>
+                    <button id="portfolio" type="button"
+                        class="btn btn-primary  my-xl-0 my-lg-0 my-md-3 my-sm-3 my-xs-3" data-bs-toggle="modal"
+                        data-bs-target="#portfolioLink">
+                        Download PDF
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!--Image and heading-->
+        <header>
+            <div class="headerpanel container-fluid p-5" style="display:flex">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-2 mx-auto my-auto p-0 ">
+                        <div class="photospace pb-md-0">
+                            <picture>
+                                <source media="(max-width: 1199px)" srcset="images/KimSquare2.jpg">
+                                <img id="photo" src="images/kimprofile3.png" alt="Photo of Kimberley">
+                            </picture>
+                            <!--<img id="photo" src="images/KimSquare.jpg" alt="Photo of Kimberley">-->
+                        </div>
+                    </div>
+
+                    <div class="col-xl-10 col-lg-9 col-md-10 mx-auto my-auto  px-lg-0 px-md-5">
+                        <div class="nametitle">
+                            <hgroup>
+                                <h1 id="name">Kimberley du Toit</h1>
+                                <h2 id="title">UX Lead | Metrics Analyst | Senior Designer</h2>
+                            </hgroup>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--Main Info-->
+        <div class="mainarea container-fluid" style="display:flex">
+
+            <!--Section Content-->
+
+            <div class="content col-xl-8 p-5 mx-auto">
+                <section>
+                    <div class="aboutsection">
+                        <h3 id="aboutme">About Me</h3>
+                        <p id="aboutme"> I am a driven and diligent young woman with a keen intellect. I possess a
+                            rare
+                            combination of <strong>analytical and
+                                creative </strong> skill. I believe that it is important to be continuously learning
+                            and to
+                            work
+                            in an environment that engages your passion.
+
+                        <h4>Personal Particulars</h4>
+                        <p id="personalparticulars"><b>Date of Birth:</b> 18 April 1992 <br>
+                            <b>Nationality:</b> South African <br>
+                            <b>Driver's License & Own Transport:</b> Yes <br>
+                            <b>Language Proficiency:</b> English (Fluent); Afrikaans (Competent) <br>
+                            <b>Residence:</b> Pretoria <br>
+                        </p>
+                    </div>
+                    <hr>
+
+                    <div class="academicsection">
+                        <h3 id="academicqualifications">Academic Qualifications</h3>
+                        <ul>
+                            <li>UX Design Course, with distinction <br> UCT GetSmarter (2020)</li><br>
+                            <li>Graphic design short courses: Photoshop, Illustrator, InDesign <br> Open Window
+                                (2018)</li>
+                            <br>
+                            <li>MA Visual Studies <br> University of Pretoria (2015-2017)</li><br>
+                            <li>BHons Visual Studies, Cum Laude <br> University of Pretoria (2014-2015)</li><br>
+                            <li>BA Visual Studies, Cum Laude <br> University of Pretoria (2012-2014)</li><br>
+                            <li>Matriculated, 4 Distinctions<br> PEPPS Polokwane (2010)</li><br>
+                        </ul>
+                    </div>
+                    <hr>
+
+                    <div class="worksection container-fluid p-0">
+                        <h3 id="workexperience">Work Experience</h3>
+                        <div class="workexperience row">
+                            <div class="employmenthistory col-xl-5">
+                                <h4>Employment History</h4>
+                                <ul>
+                                    <li>UX Lead<br> NetFlorist (2020-Ongoing)</li><br>
+                                    <li>Senior Designer and Metrics Analyst <br> Marketing Department, NetFlorist
+                                        (2020)
+                                    </li><br>
+                                    <li>Junior Graphic Designer <br> Marketing Department, NetFlorist (2018-2020)
+                                    </li><br>
+                                    <li>Copy Editor <br> ProWord Editing (2017-2018)</li><br>
+                                    <li>Art and English Teacher <br> Calibre Education (2016-2018)</li><br>
+                                    <li>Art Gallery Manager <br> MBW Art (2015-2016) </li><br>
+                                    <li>Design History Tutor<br> University of Pretoria (2015)</li><br>
+                                </ul>
+                            </div>
+                            <div class="currentposition col-xl-5">
+                                <div class="card p-4 bg-light">
+                                    <div class="card-body">
+                                        <h4 class="h3">Current Position: UX Lead</h4>
+                                        <p class="card-text"> I produce high quality deliverables to streamline the user experience of an industry-leading online retailer. This process involves research, design and implementation of UX and UI solutions that meet the needs of users and business alike. I also use statistical analysis to quantify the effects of deployments for the purposes of generating ROI, improving performance of future projects, and optimising design and functionality. There is a strong element of project management in the position. I play a significant role in decision-making for the growth of the website as a whole, and synergise well with other departments such as Development and Marketing. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="skillssection">
+                        <h3 id="skills">Skills</h3>
+                        <img src="images/adobe-photoshop-svgrepo-com.svg" alt="Javascript logo" width="80" height="80">
+                        <img src="images/adobe-indesign-svgrepo-com.svg" alt="Javascript logo" width="80" height="80">
+                        <img src="images/adobe-illustrator-svgrepo-com.svg" alt="Javascript logo" width="80"
+                            height="80">
+                        <img src="https://codespace-edu.github.io/resume/images/html.png" alt="HTML logo" width="80"
+                            height="80">
+                        <img src="https://codespace-edu.github.io/resume/images/css.png" alt="CSS logo" width="80"
+                            height="80">
+                        <img src="https://codespace-edu.github.io/resume/images/javascript.png" alt="Javascript logo"
+                            width="80" height="80">
+                    </div>
+                    <hr>
+
+                    <div class="interestssection">
+                        <h3 id="interests">Interests</h3>
+                        <ol class="interests">
+                            <li>Graphic design</li>
+                            <li>Music</li>
+                            <li>Film and Drama</li>
+                            <li>Debating and Public Speaking</li>
+                            <li>Computer Games</li>
+                            <li>Various art forms, including:</li>
+                            <ul>
+                                <li>Concept art</li>
+                                <li>Pencil drawing</li>
+                                <li>Painting</li>
+                                <li>Photography</li>
+                            </ul>
+                        </ol>
+                    </div>
+                </section>
+
+                <!--Footer with Contact Info-->
+                <footer>
+                    <hr>
+                    <div class="findme">
+                        <div id="contactdetails">
+                            <h3 id="contactdetails">Contact Details</h3>
+                            <p><b>Mobile number:</b><br>
+                                081 798 3495<br><br>
+                                <b>Email address:</b> <br>
+                                kimberley.anne.watson1@gmail.com
+                            </p>
+                        </div>
+                        <div id="socialmedia">
+                            <h3 id="socialmedia">Social Media</h3>
+                            <div id="github">
+                                <a href="https://github.com/KimberleyDuToit" target="_blank">
+                                    <img id="gitlogo" src="images/github-logo.svg" alt="github logo"></a>
+                                <a id="gitlink" href="https://github.com/KimberleyDuToit" target="_blank">GitHub
+                                    Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <a id="backtotop" href="#top">Back to the top of page</a>
+                </footer>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--Portfolio Modal-->
+    <div class="modal fade" id="portfolioLink" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModalTitle">Download PDF</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you for your interest in my work! <br>
+                        Click 'download' to save a pdf version of my CV. </p>
+                    <p id="permission">NB: Please do not edit or distribute this pdf.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="images/CV 2021_KDT.pdf" download>
+                        <button type="button" id="download" class="btn btn-primary">Download</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Javascript, Popper, Jquery bundle-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
